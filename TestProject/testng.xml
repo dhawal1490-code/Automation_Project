@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoadDepartment">
+<listeners>
+<listener class-name="test.Listeners"/>
+</listeners>
+
+<parameter name="url" value="test.com"/>
+  <test name="Test">
+    <classes>
+      <class name="test.DemoFramework"/>
+      <class name="test.Demo3"/>
+      <class name="test.Demo4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test1">
+    <classes>
+      <class name="test.Demo2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

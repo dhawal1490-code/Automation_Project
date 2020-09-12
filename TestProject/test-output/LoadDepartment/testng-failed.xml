@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoadDepartment]">
+  <parameter name="url" value="test.com"/>
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.DemoFramework">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- test.DemoFramework -->
+      <class name="test.Demo4">
+        <methods>
+          <include name="test8"/>
+          <include name="test7"/>
+        </methods>
+      </class> <!-- test.Demo4 -->
+      <class name="test.Demo2">
+        <methods>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- test.Demo2 -->
+      <class name="test.Demo3">
+        <methods>
+          <include name="test6"/>
+        </methods>
+      </class> <!-- test.Demo3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoadDepartment] -->
