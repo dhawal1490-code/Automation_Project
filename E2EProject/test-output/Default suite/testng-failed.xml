@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Labworks.E2EProject.HomePage">
+      <class name="Labworks.E2EProject.rahulShettyPageTest">
         <methods>
-          <include name="basePageNavigation"/>
+          <include name="testControls"/>
         </methods>
-      </class> <!-- Labworks.E2EProject.HomePage -->
+      </class> <!-- Labworks.E2EProject.rahulShettyPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

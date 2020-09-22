@@ -3,6 +3,7 @@ package pajeobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,6 +19,12 @@ public class LandingPage {
 	
 	By signin=By.cssSelector("a[href*='sign_in']");
 	By popupclose= By.className("sumome-react-wysiwyg-close-button");
+	
+	@FindBy(name="test")WebElement username;
+	
+	public WebElement usename(){
+		return username;		 
+	}
 	
 	public WebElement getLogin(){
 		return driver.findElement(signin);		 

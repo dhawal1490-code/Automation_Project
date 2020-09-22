@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="67979" started-at="2020-09-08T12:50:33Z" finished-at="2020-09-08T12:51:41Z">
+  <suite name="Default suite" duration-ms="36189" started-at="2020-09-15T05:17:07Z" finished-at="2020-09-15T05:17:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="67979" started-at="2020-09-08T12:50:33Z" finished-at="2020-09-08T12:51:41Z">
-      <class name="Labworks.E2EProject.LoginPageTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:Labworks.E2EProject.LoginPageTest@cb5822]" name="loginTest" duration-ms="8438" started-at="2020-09-08T18:21:30Z" finished-at="2020-09-08T18:21:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- Labworks.E2EProject.LoginPageTest -->
-      <class name="Labworks.E2EProject.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Labworks.E2EProject.HomePage@18be83e4]" name="initialize" is-config="true" duration-ms="36481" started-at="2020-09-08T18:20:33Z" finished-at="2020-09-08T18:21:10Z">
+    <test name="Default test" duration-ms="36189" started-at="2020-09-15T05:17:07Z" finished-at="2020-09-15T05:17:43Z">
+      <class name="Labworks.E2EProject.rahulShettyPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Labworks.E2EProject.rahulShettyPageTest@c038203]" name="initialize" is-config="true" duration-ms="31941" started-at="2020-09-15T10:47:07Z" finished-at="2020-09-15T10:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Labworks.E2EProject.LoginPageTest@cb5822]" name="initialize" is-config="true" duration-ms="19155" started-at="2020-09-08T18:21:10Z" finished-at="2020-09-08T18:21:29Z">
+        <test-method status="PASS" signature="testControls()[pri:0, instance:Labworks.E2EProject.rahulShettyPageTest@c038203]" name="testControls" duration-ms="4180" started-at="2020-09-15T10:47:39Z" finished-at="2020-09-15T10:47:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Labworks.E2EProject.HomePage@18be83e4]" name="basePageNavigation" duration-ms="1250" started-at="2020-09-08T18:21:29Z" finished-at="2020-09-08T18:21:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Labworks.E2EProject.HomePage@18be83e4]" name="tearDown" is-config="true" duration-ms="2166" started-at="2020-09-08T18:21:39Z" finished-at="2020-09-08T18:21:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Labworks.E2EProject.LoginPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="243" started-at="2020-09-08T18:21:41Z" finished-at="2020-09-08T18:21:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Labworks.E2EProject.HomePage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testControls -->
+      </class> <!-- Labworks.E2EProject.rahulShettyPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

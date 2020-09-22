@@ -37,14 +37,12 @@ public class HomePage extends base{
 		LandingPage l= new LandingPage(driver,wait);
 		//l.getLogin().click();
 		Assert.assertEquals(l.getTitle(),"QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy");
-			
 	}
 	
 	@AfterTest
 	public void tearDown(){
 		log.info("Test Case Ended");
 		driver.close();
-
 	}
 	
 	@DataProvider

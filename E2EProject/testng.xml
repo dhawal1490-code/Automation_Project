@@ -6,9 +6,4 @@
       <class name="Labworks.E2EProject.LoginPageTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test2">
-    <classes>
-      <class name="Labworks.E2EProject.LoginPageTest"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->

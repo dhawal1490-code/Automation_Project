@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Labworks.E2EProject.LoginPageTest">
+      <class name="Labworks.E2EProject.rahulShettyPageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="initialize"/>
+          <include name="testControls"/>
         </methods>
-      </class> <!-- Labworks.E2EProject.LoginPageTest -->
-      <class name="Labworks.E2EProject.HomePage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Labworks.E2EProject.HomePage -->
+      </class> <!-- Labworks.E2EProject.rahulShettyPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
